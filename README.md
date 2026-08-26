@@ -1,16 +1,38 @@
-## Hi there 👋
+# Edgar Velázquez
 
-<!--
-**Edgar-Devloper/Edgar-Devloper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desarrollador Full-Stack especializado en la construcción de arquitecturas web estables, modulares y de extremo a extremo en entornos de producción.
 
-Here are some ideas to get you started:
+* **Ubicación:** Venezuela
+* **Contacto Directo:** edgara.velazquezg@gmail.com
+* **Perfil Profesional:** https://www.linkedin.com/in/edgar-velazquez-9a1459266/
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### Stack Tecnológico Principal
+
+* **Backend:** Node.js (TypeScript), Express.js, Laravel (PHP)
+* **Frontend:** React.js, Next.js, JavaScript (ES6+), HTML5, CSS3
+* **Bases de Datos & DevOps:** PostgreSQL, MySQL, Arquitectura Relacional, Git / GitHub
+* **Web3 & Blockchain:** Smart Contracts (Solidity), Integraciones de Tokens y NFTs
+
+---
+
+### Repositorios de Producción Destacados
+
+* **Backend Principal (TypeScript / Node.js):**
+  https://github.com
+
+* **Frontend Principal (TypeScript / React.js):**
+  https://github.com
+
+* **Gestión de Usuarios (JavaScript / Node.js):**
+  https://github.com
+
+* **Contratos Inteligentes (Solidity / Web3):**
+  https://github.com
+
+---
+
+### Estándares de Ingeniería
+
+Especializado en la abstracción de lógicas de negocio complejas, flujos de trabajo eficientes y código limpio y mantenible (Clean Code), garantizando que el producto final sea robusto y escalable bajo metodologías ágiles.
