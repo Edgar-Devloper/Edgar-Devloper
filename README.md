@@ -4,11 +4,18 @@ Desarrollador Full-Stack especializado en la construcción de arquitecturas web 
 
 * **Ubicación:** Venezuela
 * **Contacto Directo:** edgara.velazquezg@gmail.com
-* **Perfil Profesional:** https://www.linkedin.com/in/edgar-velazquez-9a1459266/
+* **Perfil Profesional:** https://linkedin.com
 
 ---
 
 ### Stack Tecnológico Principal
+
+![NodeJS](https://shields.io)
+![TypeScript](https://shields.io)
+![React](https://shields.io)
+![Next.js](https://shields.io)
+![Laravel](https://shields.io)
+![PostgreSQL](https://shields.io)
 
 * **Backend:** Node.js (TypeScript), Express.js, Laravel (PHP)
 * **Frontend:** React.js, Next.js, JavaScript (ES6+), HTML5, CSS3
@@ -33,6 +40,13 @@ Desarrollador Full-Stack especializado en la construcción de arquitecturas web 
 
 ---
 
+### Métricas de Ingeniería
+
+![Estadísticas de Edgar](https://vercel.app)
+![Lenguajes más usados](https://vercel.app)
+
+---
+
 ### Estándares de Ingeniería
 
-Especializado en la abstracción de lógicas de negocio complejas, flujos de trabajo eficientes y código limpio y mantenible (Clean Code), garantizando que el producto final sea robusto y escalable bajo metodologías ágiles.
+Especializado en la abstracción de lógicas de negocio complejas, flujos de trabajo eficientes y código limpio y mantenible (Clean Code), garantizando que el producto final sea robusto y scalables bajo metodologías ágiles.
