@@ -42,8 +42,16 @@ Desarrollador Full-Stack especializado en la construcción de arquitecturas web 
 
 ### Métricas de Ingeniería
 
-![Estadísticas de Edgar](https://vercel.app)
-![Lenguajes más usados](https://vercel.app)
+### Stack Tecnológico Principal
+
+<p align="left">
+  <img src="https://jsdelivr.net" height="40" alt="NodeJS" />
+  <img src="https://jsdelivr.net" height="40" alt="TypeScript" />
+  <img src="https://jsdelivr.net" height="40" alt="React" />
+  <img src="https://jsdelivr.net" height="40" alt="Next.js" />
+  <img src="https://jsdelivr.net" height="40" alt="Laravel" />
+  <img src="https://jsdelivr.net" height="40" alt="PostgreSQL" />
+</p>
 
 ---
 
