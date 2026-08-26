@@ -10,12 +10,15 @@ Desarrollador Full-Stack especializado en la construcción de arquitecturas web 
 
 ### Stack Tecnológico Principal
 
-![NodeJS](https://shields.io)
-![TypeScript](https://shields.io)
-![React](https://shields.io)
-![Next.js](https://shields.io)
-![Laravel](https://shields.io)
-![PostgreSQL](https://shields.io)
+<p align="left">
+  <img src="https://githubusercontent.com" height="40" width="40" alt="NodeJS" />
+  <img src="https://githubusercontent.com" height="40" width="40" alt="TypeScript" />
+  <img src="https://githubusercontent.com" height="40" width="40" alt="React" />
+  <img src="https://githubusercontent.com" height="40" width="40" alt="Next.js" />
+  <img src="https://githubusercontent.com" height="40" width="40" alt="Laravel" />
+  <img src="https://githubusercontent.com" height="40" width="40" alt="PostgreSQL" />
+</p>
+
 
 * **Backend:** Node.js (TypeScript), Express.js, Laravel (PHP)
 * **Frontend:** React.js, Next.js, JavaScript (ES6+), HTML5, CSS3
@@ -37,21 +40,6 @@ Desarrollador Full-Stack especializado en la construcción de arquitecturas web 
 
 * **Contratos Inteligentes (Solidity / Web3):**
   https://github.com
-
----
-
-### Métricas de Ingeniería
-
-### Stack Tecnológico Principal
-
-<p align="left">
-  <img src="https://jsdelivr.net" height="40" alt="NodeJS" />
-  <img src="https://jsdelivr.net" height="40" alt="TypeScript" />
-  <img src="https://jsdelivr.net" height="40" alt="React" />
-  <img src="https://jsdelivr.net" height="40" alt="Next.js" />
-  <img src="https://jsdelivr.net" height="40" alt="Laravel" />
-  <img src="https://jsdelivr.net" height="40" alt="PostgreSQL" />
-</p>
 
 ---
 
