@@ -10,15 +10,13 @@ Desarrollador Full-Stack especializado en la construcción de arquitecturas web 
 
 ### Stack Tecnológico Principal
 
-<p align="left">
-  <img src="https://githubusercontent.com" height="40" width="40" alt="NodeJS" />
-  <img src="https://githubusercontent.com" height="40" width="40" alt="TypeScript" />
-  <img src="https://githubusercontent.com" height="40" width="40" alt="React" />
-  <img src="https://githubusercontent.com" height="40" width="40" alt="Next.js" />
-  <img src="https://githubusercontent.com" height="40" width="40" alt="Laravel" />
-  <img src="https://githubusercontent.com" height="40" width="40" alt="PostgreSQL" />
-</p>
-
+```📌
+[Backend]  Node.js (TypeScript) | Express.js | Laravel (PHP)
+[Frontend] React.js | Next.js | JavaScript (ES6+) | HTML5 | CSS3
+[Database] PostgreSQL | MySQL | Arquitectura Relacional
+[DevOps]   Git | GitHub | Metodologías Ágiles
+[Web3]     Smart Contracts | Solidity | Integraciones NFT
+```
 
 * **Backend:** Node.js (TypeScript), Express.js, Laravel (PHP)
 * **Frontend:** React.js, Next.js, JavaScript (ES6+), HTML5, CSS3
@@ -45,4 +43,4 @@ Desarrollador Full-Stack especializado en la construcción de arquitecturas web 
 
 ### Estándares de Ingeniería
 
-Especializado en la abstracción de lógicas de negocio complejas, flujos de trabajo eficientes y código limpio y mantenible (Clean Code), garantizando que el producto final sea robusto y scalables bajo metodologías ágiles.
+Especializado en la abstracción de lógicas de negocio complejas, flujos de trabajo eficientes y código limpio y mantenible (Clean Code), garantizando que el producto final sea robusto y escalable bajo metodologías ágiles.
