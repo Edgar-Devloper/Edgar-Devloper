@@ -14,6 +14,10 @@
 
 <div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1200&color=3EE8FF&center=true&vCenter=true&width=780&lines=Full-Stack+%26+Backend+Engineer;Decentralized+Apps+%7C+REST+APIs;Solidity+%7C+React+%7C+Node.js;Production-ready+Systems)](https://git.io/typing-svg)
+
+<br />
+
 [![Email](https://img.shields.io/badge/email-edgara.velazquezg%40gmail.com-0b1220?style=flat-square&logo=gmail&logoColor=3ee8ff)](mailto:edgara.velazquezg@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-edgar--velazquez-0b1220?style=flat-square&logo=linkedin&logoColor=3ee8ff)](https://www.linkedin.com/in/edgar-velazquez-9a1459266/)
 [![GitHub](https://img.shields.io/badge/GitHub-Edgar--Devloper-0b1220?style=flat-square&logo=github&logoColor=3ee8ff)](https://github.com/Edgar-Devloper)
@@ -51,12 +55,75 @@ practice   │  Clean Code · Modular Architecture · Agile
 
 ## `~/architecture`
 
+Dos enfoques de producto que construyo por separado — sin mezclar capas.
+
+### `web3` · Solidity + Frontend (descentralizado)
+
+dApp híbrida: estado financiero y lógica de negocio **on-chain**, con frontend que firma transacciones vía wallet y servicios tipados sobre ABIs.
+
 ```mermaid
-flowchart LR
-  A[Client · React / Next.js] --> B[API · Node.js / Laravel]
-  B --> C[(PostgreSQL / MySQL)]
-  B --> D[Auth · Users · Payments]
-  B --> E[Web3 · Solidity]
+flowchart TB
+  subgraph FE["Frontend · React + TypeScript"]
+    UI[UI + Feature Containers]
+    H[Hooks + Query Cache]
+  end
+
+  subgraph WALLET["Wallet Layer"]
+    W[Web3 Provider · Connect / AutoConnect]
+    SIG[Sign · Approve · Send Tx]
+  end
+
+  subgraph INT["Integration Layer"]
+    ABI[Typed ABIs + Contract Bindings]
+    SVC[Domain Services · readContract / sendTransaction]
+  end
+
+  subgraph ONCHAIN["Smart Contracts · Solidity"]
+    NFT[Identity NFT + Sale]
+    STK[Staking Manager]
+    SUB[Subscription / LP Pools]
+    TOK[Tokens · ERC-20 Approve / Transfer]
+    BNS[Bonus · Rewards · Referral Tree]
+  end
+
+  RPC[EVM RPC · Mainnet / Testnet]
+
+  UI --> H --> W
+  W --> SIG
+  H --> SVC --> ABI
+  SIG --> SVC
+  ABI --> ONCHAIN --> RPC
+```
+
+```
+UI → Hooks → Wallet → Services → ABIs → Smart Contracts → Blockchain
+```
+
+### `backend` · REST API (centralizado)
+
+Productos web clásicos: frontend consume APIs, la lógica vive en el servidor y la persistencia en base relacional.
+
+```mermaid
+flowchart TB
+  subgraph CLIENT["Frontend · React / Next.js"]
+    APP[Web App + Admin Panel]
+  end
+
+  subgraph SERVER["Backend · Node.js / Laravel"]
+    R[Routes / Controllers]
+    S[Services · Business Logic]
+    D[Repositories · ORM / Queries]
+  end
+
+  subgraph DATA["Data Layer"]
+    DB[(PostgreSQL / MySQL)]
+  end
+
+  APP -->|HTTPS · REST · JSON| R --> S --> D --> DB
+```
+
+```
+Client → REST API → Services → Repositories → Database
 ```
 
 ## `~/projects`
