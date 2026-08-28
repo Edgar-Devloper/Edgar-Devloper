@@ -55,64 +55,62 @@ practice   │  Clean Code · Modular Architecture · Agile
 
 ## `~/architecture`
 
-Dos enfoques de producto que construyo por separado — sin mezclar capas.
+Dos modelos arquitectónicos que construyo por separado — solo capas, sin mezclar dominios.
 
 ### `web3` · Solidity + Frontend (descentralizado)
 
-dApp híbrida: estado financiero y lógica de negocio **on-chain**, con frontend que firma transacciones vía wallet y servicios tipados sobre ABIs.
+Organización por capas: el frontend orquesta la UI, la wallet firma transacciones y una capa de integración habla con contratos on-chain.
 
 ```mermaid
 flowchart TB
-  subgraph FE["Frontend · React + TypeScript"]
-    UI[UI + Feature Containers]
-    H[Hooks + Query Cache]
+  subgraph PRESENTATION["Presentation Layer"]
+    UI[Components + Views]
+  end
+
+  subgraph APPLICATION["Application Layer"]
+    H[Hooks + State Management]
   end
 
   subgraph WALLET["Wallet Layer"]
-    W[Web3 Provider · Connect / AutoConnect]
-    SIG[Sign · Approve · Send Tx]
+    W[Connect + Session]
+    SIG[Sign Transactions]
   end
 
-  subgraph INT["Integration Layer"]
-    ABI[Typed ABIs + Contract Bindings]
-    SVC[Domain Services · readContract / sendTransaction]
+  subgraph INTEGRATION["Integration Layer"]
+    SVC[Contract Services]
+    ABI[ABI Bindings + Types]
   end
 
-  subgraph ONCHAIN["Smart Contracts · Solidity"]
-    NFT[Identity NFT + Sale]
-    STK[Staking Manager]
-    SUB[Subscription / LP Pools]
-    TOK[Tokens · ERC-20 Approve / Transfer]
-    BNS[Bonus · Rewards · Referral Tree]
+  subgraph BLOCKCHAIN["Blockchain Layer"]
+    SC[Solidity Smart Contracts]
+    RPC[EVM RPC Network]
   end
-
-  RPC[EVM RPC · Mainnet / Testnet]
 
   UI --> H --> W
   W --> SIG
   H --> SVC --> ABI
   SIG --> SVC
-  ABI --> ONCHAIN --> RPC
+  ABI --> SC --> RPC
 ```
 
 ```
-UI → Hooks → Wallet → Services → ABIs → Smart Contracts → Blockchain
+Presentation → Application → Wallet → Integration → Blockchain
 ```
 
 ### `backend` · REST API (centralizado)
 
-Productos web clásicos: frontend consume APIs, la lógica vive en el servidor y la persistencia en base relacional.
+Organización por capas: el cliente consume endpoints REST y el backend encapsula reglas de negocio y persistencia.
 
 ```mermaid
 flowchart TB
-  subgraph CLIENT["Frontend · React / Next.js"]
-    APP[Web App + Admin Panel]
+  subgraph CLIENT["Presentation Layer"]
+    APP[Web Client + Admin UI]
   end
 
-  subgraph SERVER["Backend · Node.js / Laravel"]
+  subgraph SERVER["Application Layer"]
     R[Routes / Controllers]
     S[Services · Business Logic]
-    D[Repositories · ORM / Queries]
+    D[Repositories · Data Access]
   end
 
   subgraph DATA["Data Layer"]
@@ -123,7 +121,7 @@ flowchart TB
 ```
 
 ```
-Client → REST API → Services → Repositories → Database
+Presentation → Application → Data
 ```
 
 ## `~/projects`
