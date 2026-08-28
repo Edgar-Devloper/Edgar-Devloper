@@ -14,7 +14,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1200&color=3EE8FF&center=true&vCenter=true&width=780&lines=Full-Stack+%26+Backend+Engineer;Decentralized+Apps+%7C+REST+APIs;Solidity+%7C+React+%7C+Node.js;Production-ready+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1200&background=0B1220&color=3ECF8E&center=true&vCenter=true&width=780&lines=Full-Stack+%26+Backend+Engineer;Decentralized+Apps+%7C+REST+APIs;Solidity+%7C+React+%7C+Node.js;Production-ready+Systems)](https://git.io/typing-svg)
 
 <br />
 
