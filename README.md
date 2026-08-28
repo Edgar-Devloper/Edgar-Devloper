@@ -1,46 +1,51 @@
-# Edgar Velázquez
+```yaml
+# system_engineer.yaml
+developer:
+  name: "Edgar Velázquez"
+  role: "Full-Stack & Backend Engineer"
+  location: "Venezuela"
+  specialty: "Scalable web architectures & robust production environments"
 
-Desarrollador Full-Stack especializado en la construcción de arquitecturas web estables, modulares y de extremo a extremo en entornos de producción.
+status:
+  available_for_hire: true
+  engineering_standards:
+    - "Clean Code"
+    - "Modular Architectures"
+    - "Complex Business Logic Abstraction"
+    - "Agile Methodologies (Scrum)"
 
-* **Ubicación:** Venezuela
-* **Contacto Directo:** edgara.velazquezg@gmail.com
-* **Perfil Profesional:** https://linkedin.com
+contact:
+  email: "edgara.velazquezg@gmail.com"
+  linkedin: "https://linkedin.com"
 
----
+core_stack:
+  backend:
+    runtime: "Node.js (v18+)"
+    languages: ["TypeScript", "JavaScript (ES6+)"]
+    frameworks: ["Express.js", "Laravel (PHP)"]
+  frontend:
+    frameworks: ["React.js", "Next.js"]
+    core: ["HTML5", "CSS3", "JavaScript"]
+  databases:
+    relational: ["PostgreSQL", "MySQL"]
+    design: ["Relational Database Architecture"]
+  devops_tools:
+    version_control: ["Git", "GitHub"]
+  web3_blockchain:
+    contracts: ["Solidity", "Smart Contracts"]
+    integrations: ["Tokens", "NFT Integrations"]
 
-### Stack Tecnológico Principal
-
-```📌
-[Backend]  Node.js (TypeScript) | Express.js | Laravel (PHP)
-[Frontend] React.js | Next.js | JavaScript (ES6+) | HTML5 | CSS3
-[Database] PostgreSQL | MySQL | Arquitectura Relacional
-[DevOps]   Git | GitHub | Metodologías Ágiles
-[Web3]     Smart Contracts | Solidity | Integraciones NFT
+featured_production_repositories:
+  - name: "Core API Backend"
+    stack: ["Node.js", "TypeScript", "Express"]
+    url: "https://github.com"
+  - name: "Product Management Frontend"
+    stack: ["React.js", "TypeScript"]
+    url: "https://github.com"
+  - name: "User Access Control System"
+    stack: ["Node.js", "JavaScript"]
+    url: "https://github.com"
+  - name: "Smart Contracts Platform"
+    stack: ["Solidity", "Web3"]
+    url: "https://github.com"
 ```
-
-* **Backend:** Node.js (TypeScript), Express.js, Laravel (PHP)
-* **Frontend:** React.js, Next.js, JavaScript (ES6+), HTML5, CSS3
-* **Bases de Datos & DevOps:** PostgreSQL, MySQL, Arquitectura Relacional, Git / GitHub
-* **Web3 & Blockchain:** Smart Contracts (Solidity), Integraciones de Tokens y NFTs
-
----
-
-### Repositorios de Producción Destacados
-
-* **Backend Principal (TypeScript / Node.js):**
-  https://github.com
-
-* **Frontend Principal (TypeScript / React.js):**
-  https://github.com
-
-* **Gestión de Usuarios (JavaScript / Node.js):**
-  https://github.com
-
-* **Contratos Inteligentes (Solidity / Web3):**
-  https://github.com
-
----
-
-### Estándares de Ingeniería
-
-Especializado en la abstracción de lógicas de negocio complejas, flujos de trabajo eficientes y código limpio y mantenible (Clean Code), garantizando que el producto final sea robusto y escalable bajo metodologías ágiles.
