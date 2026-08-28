@@ -39,13 +39,13 @@ Código limpio · arquitectura modular · lógica de negocio bien abstraída.
 ## `~/stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,express,php,laravel,react,nextjs,html,css,postgres,mysql,solidity,git,github&perline=8" alt="Stack" />
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,express,php,laravel,react,nextjs,html,css,postgres,mysql,mongodb,solidity,git,github&perline=9" alt="Stack" />
 </p>
 
 ```
 backend   │  Node.js 18+ · TypeScript · Express · Laravel (PHP)
 frontend   │  React · Next.js · HTML5 · CSS3
-data       │  PostgreSQL · MySQL
+data       │  PostgreSQL · MySQL · MongoDB
 web3       │  Solidity · Smart Contracts · Tokens · NFT
 practice   │  Clean Code · Modular Architecture · Agile
 ```
@@ -105,7 +105,7 @@ flowchart TB
   end
 
   subgraph DATA["Data Layer"]
-    DB[(PostgreSQL / MySQL)]
+    DB[(PostgreSQL / MySQL / MongoDB)]
   end
 
   APP -->|HTTPS · REST · JSON| R --> S --> D --> DB
