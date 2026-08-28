@@ -13,10 +13,12 @@
 <br />
 
 <div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1200&background=0B1220&color=3ECF8E&center=true&vCenter=true&width=780&lines=Full-Stack+%26+Backend+Engineer;Decentralized+Apps+%7C+REST+APIs;Solidity+%7C+React+%7C+Node.js;Production-ready+Systems)](https://git.io/typing-svg)
+  <img src="./terminal-intro.gif" alt="Git Bash profile intro" width="100%" />
+</div>
 
 <br />
+
+<div align="center">
 
 [![Email](https://img.shields.io/badge/email-edgara.velazquezg%40gmail.com-0b1220?style=flat-square&logo=gmail&logoColor=3ee8ff)](mailto:edgara.velazquezg@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-edgar--velazquez-0b1220?style=flat-square&logo=linkedin&logoColor=3ee8ff)](https://www.linkedin.com/in/edgar-velazquez-9a1459266/)
@@ -26,15 +28,6 @@
 </div>
 
 ---
-
-```bash
-$ edgar --profile
-Full-Stack & Backend Engineer · Venezuela · Remote · Open to work
-
-$ edgar --about
-Construyo sistemas de producción: APIs REST, frontends React y contratos Solidity.
-Código limpio · arquitectura modular · lógica de negocio bien abstraída.
-```
 
 ## `~/stack`
 
