@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Edgar Velázquez  Full-Stack and Backend Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#071018"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3ee8ff"/>
+      <stop offset="100%" stop-color="#3ecf8e"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3ee8ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3ee8ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3ee8ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1a2740" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="82%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#3ee8ff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3ee8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)" opacity="0.7"/>
+  <rect width="1280" height="360" fill="url(#glow)"/>
+  <rect x="0" y="0" width="6" height="360" fill="url(#accent)"/>
+
+  <!-- HUD corners -->
+  <g fill="none" stroke="#3ee8ff" stroke-width="2" opacity="0.85">
+    <path d="M 28 58 L 28 28 L 58 28"/>
+    <path d="M 1252 58 L 1252 28 L 1222 28"/>
+    <path d="M 28 302 L 28 332 L 58 332"/>
+    <path d="M 1252 302 L 1252 332 L 1222 332"/>
+  </g>
+
+  <rect x="28" y="168" width="220" height="1" fill="url(#accent)" opacity="0.9"/>
+
+  <!-- status -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="48" y="52" fill="#6ee7b7" font-size="13" letter-spacing="3">STATUS // ONLINE</text>
+    <circle cx="32" cy="48" r="4" fill="#3ecf8e">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="48" y="78" fill="#8b9bb4" font-size="12" letter-spacing="2">LATAM · REMOTE · AVAILABLE_FOR_HIRE</text>
+  </g>
+
+  <text x="48" y="155" fill="#e6edf3" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="54" font-weight="700">Edgar Velázquez</text>
+  <text x="48" y="208" fill="#3ee8ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="1.5">FULL-STACK &amp; BACKEND ENGINEER</text>
+  <text x="48" y="248" fill="#8b9bb4" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="16">Node.js · TypeScript · Laravel · React · Solidity</text>
+
+  <!-- right module -->
+  <g transform="translate(860, 90)">
+    <rect x="0" y="0" width="360" height="190" rx="8" fill="#0d1626" stroke="#1f3354" stroke-width="1"/>
+    <text x="20" y="32" fill="#8b9bb4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2">SYSTEM.PROFILE</text>
+    <text x="20" y="68" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">runtime   Node.js 18+</text>
+    <text x="20" y="94" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">language  TypeScript / PHP</text>
+    <text x="20" y="120" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">frontend  React / Next.js</text>
+    <text x="20" y="146" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">data      PostgreSQL / MySQL</text>
+    <text x="20" y="172" fill="#3ecf8e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">web3      Solidity / contracts</text>
+  </g>
+
+  <rect x="0" y="352" width="1280" height="8" fill="url(#scan)"/>
+</svg>
