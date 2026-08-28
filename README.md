@@ -28,15 +28,12 @@
 ---
 
 ```bash
-$ whoami
-edgar.velazquez  —  Full-Stack & Backend Engineer
-$ cat mission.txt
-Diseño sistemas que llegan a producción: APIs REST, frontends
-y bases relacionales. Código limpio, arquitectura modular,
-lógica de negocio bien abstraída.
-$ status --hire
-available_for_hire: true
-location: Venezuela · Remote
+$ edgar --profile
+Full-Stack & Backend Engineer · Venezuela · Remote · Open to work
+
+$ edgar --about
+Construyo sistemas de producción: APIs REST, frontends React y contratos Solidity.
+Código limpio · arquitectura modular · lógica de negocio bien abstraída.
 ```
 
 ## `~/stack`
@@ -55,11 +52,7 @@ practice   │  Clean Code · Modular Architecture · Agile
 
 ## `~/architecture`
 
-Dos modelos arquitectónicos que construyo por separado — solo capas, sin mezclar dominios.
-
 ### `web3` · Solidity + Frontend (descentralizado)
-
-Organización por capas: el frontend orquesta la UI, la wallet firma transacciones y una capa de integración habla con contratos on-chain.
 
 ```mermaid
 flowchart TB
@@ -98,8 +91,6 @@ Presentation → Application → Wallet → Integration → Blockchain
 ```
 
 ### `backend` · REST API (centralizado)
-
-Organización por capas: el cliente consume endpoints REST y el backend encapsula reglas de negocio y persistencia.
 
 ```mermaid
 flowchart TB
