@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="./banner.svg" alt="Edgar Velázquez — Full-Stack & Backend Engineer" width="100%" />
+ <img src="./banner.svg" alt="Edgar Velázquez — Full-Stack & Backend Engineer" width="100%" />
 </div>
 
 <br />
