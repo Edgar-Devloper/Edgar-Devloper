@@ -1,7 +1,15 @@
+<!--
+  Sube ESTE README.md y la carpeta assets/ al repo:
+  https://github.com/Edgar-Devloper/Edgar-Devloper
 
+  El banner tiene que existir en:
+  /assets/banner.svg
+-->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Edgar-Devloper/Edgar-Devloper/main/banner.png" alt="Edgar Velázquez — Full-Stack & Backend Engineer" width="100%" />
+  <img src="./banner.png" alt="Edgar Velázquez — Full-Stack & Backend Engineer" width="100%" />
+</div>
+
 <br />
 
 <div align="center">
