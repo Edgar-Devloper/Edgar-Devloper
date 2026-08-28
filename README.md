@@ -1,5 +1,5 @@
+# metadata.yaml
 ```yaml
-# system_engineer.yaml
 developer:
   name: "Edgar Velázquez"
   role: "Full-Stack & Backend Engineer"
@@ -12,11 +12,7 @@ status:
     - "Clean Code"
     - "Modular Architectures"
     - "Complex Business Logic Abstraction"
-    - "Agile Methodologies (Scrum)"
-
-contact:
-  email: "edgara.velazquezg@gmail.com"
-  linkedin: "https://linkedin.com"
+    - "Agile Methodologies"
 
 core_stack:
   backend:
@@ -28,24 +24,21 @@ core_stack:
     core: ["HTML5", "CSS3", "JavaScript"]
   databases:
     relational: ["PostgreSQL", "MySQL"]
-    design: ["Relational Database Architecture"]
   devops_tools:
     version_control: ["Git", "GitHub"]
   web3_blockchain:
     contracts: ["Solidity", "Smart Contracts"]
     integrations: ["Tokens", "NFT Integrations"]
-
-featured_production_repositories:
-  - name: "Core API Backend"
-    stack: ["Node.js", "TypeScript", "Express"]
-    url: "https://github.com"
-  - name: "Product Management Frontend"
-    stack: ["React.js", "TypeScript"]
-    url: "https://github.com"
-  - name: "User Access Control System"
-    stack: ["Node.js", "JavaScript"]
-    url: "https://github.com"
-  - name: "Smart Contracts Platform"
-    stack: ["Solidity", "Web3"]
-    url: "https://github.com"
 ```
+
+## Production Environments
+
+*   **[Core API Backend](https://github.com)** — Node.js, TypeScript, Express.js
+*   **[Product Management Frontend](https://github.com)** — React.js, Next.js, TypeScript
+*   **[User Access Control System](https://github.com)** — Node.js, JavaScript (ES6+)
+*   **[Smart Contracts Platform](https://github.com)** — Solidity, Web3 Integration
+
+## Contact & Networks
+
+*   **Email:** edgara.velazquezg@gmail.com
+*   **LinkedIn:** [://linkedin.com](https://://linkedin.com)
