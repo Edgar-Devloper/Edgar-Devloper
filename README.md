@@ -1,80 +1,110 @@
 
+
 <div align="center">
-
-# Edgar Velázquez
-
-**Full-Stack & Backend Engineer**
-
-Arquitecturas web escalables · APIs de producción · entornos robustos
-
-Venezuela · Remote · Open to work
+  <img src="./assets/banner.svg" alt="Edgar Velázquez — Full-Stack & Backend Engineer" width="100%" />
+</div>
 
 <br />
 
-[![Email](https://img.shields.io/badge/email-edgara.velazquezg%40gmail.com-111827?style=flat&logo=gmail&logoColor=white)](mailto:edgara.velazquezg@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-edgar--velazquez-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-velazquez-9a1459266/)
-[![GitHub](https://img.shields.io/badge/GitHub-Edgar--Devloper-181717?style=flat&logo=github&logoColor=white)](https://github.com/Edgar-Devloper)
+<div align="center">
+
+[![Email](https://img.shields.io/badge/email-edgara.velazquezg%40gmail.com-0b1220?style=flat-square&logo=gmail&logoColor=3ee8ff)](mailto:edgara.velazquezg@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-edgar--velazquez-0b1220?style=flat-square&logo=linkedin&logoColor=3ee8ff)](https://www.linkedin.com/in/edgar-velazquez-9a1459266/)
+[![GitHub](https://img.shields.io/badge/GitHub-Edgar--Devloper-0b1220?style=flat-square&logo=github&logoColor=3ee8ff)](https://github.com/Edgar-Devloper)
+[![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FEdgar-Devloper&query=%24.public_repos&label=repos&color=3ecf8e&style=flat-square&labelColor=0b1220)](https://github.com/Edgar-Devloper?tab=repositories)
 
 </div>
 
 ---
 
-Diseño y construyo productos de punta a punta: APIs REST en **Node.js / TypeScript** y **Laravel**, frontends en **React / Next.js**, y bases de datos relacionales listas para producción. Me importa el código limpio, las arquitecturas modulares y abstraer lógica de negocio compleja sin sacrificar claridad.
-
-También trabajo en **Web3** (Solidity, contratos, tokens e integraciones NFT) cuando el producto lo pide.
-
-```yaml
-developer:
-  name: Edgar Velázquez
-  focus: scalable backends · production systems
-  available_for_hire: true
+```bash
+$ whoami
+edgar.velazquez  —  Full-Stack & Backend Engineer
+$ cat mission.txt
+Diseño sistemas que llegan a producción: APIs REST, frontends
+y bases relacionales. Código limpio, arquitectura modular,
+lógica de negocio bien abstraída.
+$ status --hire
+available_for_hire: true
+location: Venezuela · Remote
 ```
 
-## Stack
+## `~/stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,express,php,laravel,react,nextjs,html,css,postgres,mysql,solidity,git,github" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,express,php,laravel,react,nextjs,html,css,postgres,mysql,solidity,git,github&perline=8" alt="Stack" />
 </p>
 
-| Área | Herramientas |
-| --- | --- |
-| Backend | Node.js 18+, TypeScript, Express, Laravel (PHP) |
-| Frontend | React, Next.js, HTML5, CSS3 |
-| Datos | PostgreSQL, MySQL |
-| Web3 | Solidity, smart contracts, tokens, NFT |
-| Práctica | Clean Code, arquitecturas modulares, Agile |
+```
+backend   │  Node.js 18+ · TypeScript · Express · Laravel (PHP)
+frontend   │  React · Next.js · HTML5 · CSS3
+data       │  PostgreSQL · MySQL
+web3       │  Solidity · Smart Contracts · Tokens · NFT
+practice   │  Clean Code · Modular Architecture · Agile
+```
 
-## Trabajo seleccionado
+## `~/architecture`
 
-<p align="center">
-  <a href="https://github.com/Edgar-Devloper/Pollos_v2_Backend">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Edgar-Devloper&repo=Pollos_v2_Backend&theme=transparent&hide_border=true" alt="Pollos_v2_Backend" />
-  </a>
-  <a href="https://github.com/Edgar-Devloper/Pollo_v2_Admin">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Edgar-Devloper&repo=Pollo_v2_Admin&theme=transparent&hide_border=true" alt="Pollo_v2_Admin" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Edgar-Devloper/Front-Products">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Edgar-Devloper&repo=Front-Products&theme=transparent&hide_border=true" alt="Front-Products" />
-  </a>
-  <a href="https://github.com/Edgar-Devloper/solidity-governance-vault">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Edgar-Devloper&repo=solidity-governance-vault&theme=transparent&hide_border=true" alt="solidity-governance-vault" />
-  </a>
-</p>
+```mermaid
+flowchart LR
+  A[Client · React / Next.js] --> B[API · Node.js / Laravel]
+  B --> C[(PostgreSQL / MySQL)]
+  B --> D[Auth · Users · Payments]
+  B --> E[Web3 · Solidity]
+```
 
-- [backend-usuarios](https://github.com/Edgar-Devloper/backend-usuarios) — API de gestión de usuarios
-- [Front-End-Poll](https://github.com/Edgar-Devloper/Front-End-Poll) — Frontend en TypeScript
+## `~/projects`
 
-## GitHub
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/Edgar-Devloper/Pollos_v2_Backend">Pollos_v2_Backend</a></h3>
+      API TypeScript de un producto en producción.<br/><br/>
+      <code>TypeScript</code> · <code>Node.js</code> · <code>API</code>
+    </td>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/Edgar-Devloper/Pollo_v2_Admin">Pollo_v2_Admin</a></h3>
+      Panel de administración del mismo producto.<br/><br/>
+      <code>JavaScript</code> · <code>Dashboard</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/Edgar-Devloper/Front-Products">Front-Products</a></h3>
+      Frontend de catálogo / productos.<br/><br/>
+      <code>TypeScript</code> · <code>React</code>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Edgar-Devloper/solidity-governance-vault">solidity-governance-vault</a></h3>
+      Vault de gobernanza con decay de voting power.<br/><br/>
+      <code>Solidity</code> · <code>Web3</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/Edgar-Devloper/backend-usuarios">backend-usuarios</a></h3>
+      API de gestión de usuarios.<br/><br/>
+      <code>JavaScript</code> · <code>Auth</code>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Edgar-Devloper/Front-End-Poll">Front-End-Poll</a></h3>
+      Frontend en TypeScript.<br/><br/>
+      <code>TypeScript</code> · <code>UI</code>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Edgar-Devloper&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Edgar-Devloper&layout=compact&theme=transparent&hide_border=true" alt="Top languages" height="165" />
-</p>
+## `~/connect`
 
-## Contacto
+```ts
+const contact = {
+  email:    "edgara.velazquezg@gmail.com",
+  linkedin: "linkedin.com/in/edgar-velazquez-9a1459266",
+  github:   "github.com/Edgar-Devloper",
+  openTo:   ["full-time remote", "contract"],
+};
+```
 
-Estoy abierto a roles **full-time o contrato, remotos**, en equipos que valoren código mantenible y sistemas que aguanten producción.
-
-**edgara.velazquezg@gmail.com** · [LinkedIn](https://www.linkedin.com/in/edgar-velazquez-9a1459266/) · [GitHub](https://github.com/Edgar-Devloper)
+**mailto: [edgara.velazquezg@gmail.com](mailto:edgara.velazquezg@gmail.com)**  
+**linkedin: [edgar-velazquez](https://www.linkedin.com/in/edgar-velazquez-9a1459266/)**  
+**github: [Edgar-Devloper](https://github.com/Edgar-Devloper)**
